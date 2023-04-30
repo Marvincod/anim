@@ -1,0 +1,64 @@
+.ball{ border-radius: 20px;
+    height: 10px;
+width: 10px;
+background-color: brown;
+margin-left: 40px;
+animation-duration: 20s;
+animation-iteration-count: infinite;
+animation: redd 20s linear infinite;
+
+}
+@keyframes redd{
+    15%{transform: translateY(150px);
+ }
+   20% {transform: translateY(200px)
+translateX(50px)
+;
+   }
+  26% { transform: translateX(-11px)
+   translateY(240px);
+   }
+   32%{transform: translateY(240px)
+      translateX(140px);
+   }
+40%{transform: translateY(160px)
+   translateX(215px);
+}
+45%{transform: translateY(60px)
+   translateX(130px);
+}
+50%{transform: translateX(245px)
+   translateY(60px);
+}
+55%{transform: translateY(120px)
+   translateX(230px);
+}
+60%{transform: translateY(60px)
+   translateX(360px);
+}
+65%{transform: translateY(100px)
+   translateX(420px);
+}
+70%{transform: translateY(150px)
+translateX(350px);
+}
+75%{transform: translateY(210px)
+   translateX(400px);
+}
+80%{transform: translateX(310px)
+   translateY(220px);
+}
+85%{transform: translateY(250px)
+   translateX(300px);
+}
+90%{transform: translateX(410px)
+   translateY(250px);
+}
+100%{transform: translateY(400px)
+   translateX(380px);
+}
+
+}
+.pizz{width: 500px;
+
+}
